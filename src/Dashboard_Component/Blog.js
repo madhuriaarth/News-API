@@ -17,7 +17,7 @@ function Blog() {
         console.log(blog);
       } catch (error) {}
     }
-  });
+  }, []);
   return (
     <div>
       {blog.map((blog) => (
