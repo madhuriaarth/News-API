@@ -6,8 +6,8 @@ import Dashboard from "../Dashboard_Component/Dashboard";
 function Routing() {
   return (
     <Router>
-      <div className="App">
-        <ul className="App-header">
+      <div>
+        <ul>
           <li>
             <Link to="/">Articles</Link>
           </li>
