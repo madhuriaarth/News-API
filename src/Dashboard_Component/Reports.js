@@ -17,7 +17,7 @@ function Reports() {
         console.log(data);
       } catch (error) {}
     }
-  });
+  }, []);
   return (
     <div>
       {data.map((reports) => (
