@@ -11,7 +11,7 @@ function Dashboard() {
       {pathNavigation === true ? <Reports /> : <Blog />} */}
 
       <button onClick={() => setPathNavigation(!pathNavigation)}>
-        Dashboard
+        DashboardPage
       </button>
       {pathNavigation ? <Blog /> : <Reports />}
 

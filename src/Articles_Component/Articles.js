@@ -30,6 +30,7 @@ function Articles() {
           <h5>publishedAt : {news.publishedAt}</h5>
           <h5>updatedAt : {news.updatedAt}</h5>
           <h5>featured : {news.featured}</h5>
+          <h5>launches : {news.news.launches ? news.news.launches.id : ""}</h5>
         </div>
       ))}
     </div>
